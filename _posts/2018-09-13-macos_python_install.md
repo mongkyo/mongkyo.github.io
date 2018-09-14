@@ -1,5 +1,5 @@
 ---
-title: "Mac OS에 python 개발환경 만들기"
+title: "masOS에 python 설치하기"
 categories: 
    - Dev
 tags:
