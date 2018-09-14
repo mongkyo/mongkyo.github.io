@@ -73,8 +73,10 @@ $ pip install ipython
 
 python의 사용을 도와주는 노트북 설치 
 
-'''
+```
 $ pip install notebook
-'''
-> 설치 후 설치한 폴더 내에서  
-> `$ jupyter notebook` 으로 실행시킨다
+
+# 설치 후 설치한 폴더내에서 다음 명령어로 파일을 실행한다
+
+`$ jupyter notebook`
+```
