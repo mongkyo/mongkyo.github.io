@@ -300,7 +300,8 @@ LEFT JOIN | 왼쪽 테이블에서 모든 레코드를 반환하고 오른쪽 �
 RIGHT JOIN | 오른쪽 테이블에서 모든 레코드를 반환하고 오른쪽 테이블에서 일치하는 레코드를 반환한다
 FULL OUTER JOIN | 왼쪽 또는 오른쪽 테이블에서 일치하는 항목이 있으면 모든 레코드를 반환한다
 
-![JOIN_IMAGE](https://github.com/mongkyo/SQL-Homework/blob/jungmongkyo/join.png)
+<img src='https://raw.githubusercontent.com/mongkyo/SQL-Homework/jungmongkyo/join.png'>
+
 
 ### SQL INNER JOIN Keyword
 
