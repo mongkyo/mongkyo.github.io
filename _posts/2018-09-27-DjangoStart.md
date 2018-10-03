@@ -239,20 +239,16 @@ def post_list(request):
 
 데이터베이스에는 UTC로 저장, TIME_ZONE 지정하면 장고와 관련된 모듈에만 적용된다.
 
-## Django의 MTV모델
-- MTV 모델 
+
+> Django의  **MTV**
+========
+
 
 MVC 모델 | MTV모델(Django)
 --------|--------
-Model | Model (Models.py)
-View  | Template
-Controller | View (Views.py)
+Model ( `Models.py` ) | 테이블을 정의
+Template( `./template/*.html` ) | 사용자가 보게 될 화면의 모습을 정의
+View ( `Views.py` ) | 어플리케이션의 제어 흐름 및 처리 로직을 정의
 	
-모델은 데이터를 의미, 데이터를 정의하고 구조를 정의한다.
 
-뷰는 사용하자한테 보여줄 코드를 작성, 사용자에게 보여주는 코드에 해당하는 부분, 사용자에게 보여지는 부분 html과 같다.
-
-모델에서 데이터를 가져와서 그 데이터를 가지고 뷰를 생성하는 것이 컨트롤러이다. (데이터와 뷰를 연결시키는 역할)
-  
-Django에서는 독자적으로 MTV을 사용한다. MTV모델에서의 View 모델에서 데이터를 가져와서 Template형태로 만드는 역할을 한다.
-
+이 MTV모델에서 보통 테이블 설계(`Model`)를 먼저 작성한 후, 화면 설계(`Tamplate`,`View`)를 하는 것이 일반적이다. 또한 화면 설계 내에서도 UI화면을 생각하면서 로직을 풀어나가는 것이 더 쉽기 때문에 template에서 view순서로 코딩한다. 하지만 로직이 간단한 경우에는 view를 먼저 코딩한 후 template를 작성한다.
