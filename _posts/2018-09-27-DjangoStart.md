@@ -56,7 +56,7 @@ $ pip install django~=1.11.0
 ```
 > pycharm에서 실행할 경우에 가상환경 폴더 안의 py파일들이 정상적으로 작동하지 않는다면 preferences(`cmd`+`,`)에서 `Project Interpreter`에서 `show all`에서 가상환경 상의 python을 추가해준다. 이때 `Existing environment` 안에서 설정을 해줘야 한다
 
-> 위치 : `/usr/local/var/pyenv/versions/[가상환경 폴더이름]/bin/python` 
+위치 : `/usr/local/var/pyenv/versions/[가상환경 폴더이름]/bin/python` 
 
 -
 ## 2. Djangogirls-Tutorial Start
