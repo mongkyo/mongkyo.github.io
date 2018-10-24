@@ -238,9 +238,11 @@ def post_list(request):
 ```    
 
 데이터베이스에는 UTC로 저장, TIME_ZONE 지정하면 장고와 관련된 모듈에만 적용된다.
+> config/settings.py에서 Time_zone을 변경하여도 데이터베이스에는 그대로 UTC기준으로 들어간다. 이 변경된 내용은 admin에서 확인 할 수 있다. 
 
+--
 
-> Django의  **MTV**
+ Django의  **MTV**
 ========
 
 

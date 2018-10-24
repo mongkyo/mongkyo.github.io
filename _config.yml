@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Dev_Mong"
 title_separator          : "-"
-name                     : "Mongkyo Jung"
+name                     : "Mongkyo"
 description              : "Hello"
 url                      : "https://mongkyo.kr" # "https://mongkyo.github.io"
 baseurl                  : ""
@@ -101,14 +101,14 @@ analytics:
 # Site Author
 author:
   name             : "Mongkyo"
-  avatar           : "./mongkyo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # "./mongkyo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello"
   location         : "Seoul, Korea"
   email            : "dreamong91@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:dreamong91@gmail.com
+      url: "mailto:dreamong91@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -120,7 +120,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/mongkyo"
+      url: "https://github.com/mongkyo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/mongkyo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -213,7 +213,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
