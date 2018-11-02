@@ -305,3 +305,4 @@ CMD				python3 manage.py runserver 0:8000
 위 명령어를 실행하면 Client(현재 사용중인 내 컴퓨터)의 `localhost:7000`과 Docker의 `localhost:8000`이 연결된다. 현재 작업중인 Client 환경에서 `localhost:7000`를 실행하면 Django 파일들이 실행된 화면이 나타난다.
 
 ![Start Django](/assets/deploy/StartDjango.png)
+
