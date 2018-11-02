@@ -1,7 +1,7 @@
 ---
 title: "AWS명령어 및 Docker 시작하기"
 categories: 
-   - Dev
+  - Dev
 tags:
     - mac
     - AWS
@@ -16,8 +16,6 @@ toc_sticky: true
 last_modified_at:
 comments: true
 ---
-
-
 
 # AWS 연동 및 Docker 사용하기 
 
