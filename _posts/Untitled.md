@@ -4,7 +4,7 @@ docker exec eb tail -f /srv/project/.log/error.log
 
 
 
-
+   
 ```
 ./deploy.sh -> EC2환경에 배포 
 
