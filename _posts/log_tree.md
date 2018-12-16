@@ -37,3 +37,10 @@ DEBUG True 설정이 dev에 setting이 되어있는지 확인한다.
 production환경으로 인식하기 때문에 dev모드에서 지원하는 admin옵션의 
 
 css를 지원하지 않는다. (정확한 이유는 모름....)
+
+
+4. 
+
+import를 할 수 없을 때 
+
+pakages 분리를 통해 꼬여있는 import를 풀어준다 
