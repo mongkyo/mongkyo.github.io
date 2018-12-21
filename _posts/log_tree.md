@@ -44,3 +44,24 @@ css를 지원하지 않는다. (정확한 이유는 모름....)
 import를 할 수 없을 때 
 
 pakages 분리를 통해 꼬여있는 import를 풀어준다 
+
+
+
+5.
+
+S3에 올라간 사진을 읽어 올 수 없을 때 
+
+```
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Error>
+<Code>NoSuchKey</Code>
+<Message>The specified key does not exist.</Message>
+<Key>media/post/이북집찹쌀순대-1.jpg</Key>
+<RequestId>D1B1A37C6359DD13</RequestId>
+<HostId>
+6YfSzFEyW3Fjwv6llAgYifuNxwsAuRe7XsDnebW1C1OiJyyMDQOYa680aLa96jYaygWNcBgst10=
+</HostId>
+</Error>
+```
+
+S3에서 사진을 올리고 퍼블릭 설정을 변경해준다. 
