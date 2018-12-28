@@ -65,3 +65,10 @@ This XML file does not appear to have any style information associated with it. 
 ```
 
 S3에서 사진을 올리고 퍼블릭 설정을 변경해준다. 
+
+
+6. 
+
+Pipenv를 사용하는 경우 Home directory에 Pipfile이 있는 경우 pipenv가 항상 ~에 위치하게 된다. 
+
+따라서 home directory에 Pipfile이 있는지 확인해야한다.
