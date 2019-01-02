@@ -29,7 +29,7 @@ OneToOne Field에 `primary_key = True` 속성을 주면 이 속성을 가지고 
 
 
 
-```
+```python
 ex)
 
 from django.db import models
@@ -76,7 +76,7 @@ class FacebookUser(models.Model):
 
 두 모델 사이의 관계와 데이터를 나타낼 때 ManyToManyField로 나타다낸다. 이 관계의 세부사항을 추가할 때 중간 모델을 사용하여 연결한다. 이 중간 모델은 `though`를 사용한다.
 
-```
+```python
 from django.db import models
 
 
@@ -125,7 +125,7 @@ class Membership(models.Model):
 ## Recursive symmetrical False
 symmetrical 속성은 인스타그램과 같이 내가 팔로우를 한다고 해서 자동으로 상대방과 연결되는 개념이 아닌, 일방적으로 나만 팔로우를 할 수 있는 기능을 말한다. 코드를 통해 예를 들어보자 
 
-```
+```python
 from django.db import models
 
 
@@ -181,7 +181,7 @@ class InstagramUser(models.Model):
 
 이러한 오류를 바로 잡기 위해 아래의 `intermediate model을 사용한다. 
 
-```
+```python
 Membership.objects.create(
 			person = ringo,
 			group = beatles,
