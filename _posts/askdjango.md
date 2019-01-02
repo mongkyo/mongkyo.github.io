@@ -10,7 +10,7 @@ ask django
 
 1) 
 
-```
+```python
 qs = Post.objects.all()
 for post in qs:
 	post.title = 'changed title'
