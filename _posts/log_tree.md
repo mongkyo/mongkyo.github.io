@@ -72,3 +72,16 @@ S3에서 사진을 올리고 퍼블릭 설정을 변경해준다.
 Pipenv를 사용하는 경우 Home directory에 Pipfile이 있는 경우 pipenv가 항상 ~에 위치하게 된다. 
 
 따라서 home directory에 Pipfile이 있는지 확인해야한다.
+
+
+7.
+
+DB migrate, makemigration할 때 오류가 나는 경우 
+
+```
+django.db.migrations.exceptions.InconsistentMigrationHistory: Migration admin.0001_initial is applied before its dependency members.0001_initial on database 'default'.
+```
+
+다음의 절차대로 해결한다.
+
+![에러 처리 절차](/assets/deploy/db_error_case.png)
