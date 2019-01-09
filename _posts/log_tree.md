@@ -85,3 +85,6 @@ django.db.migrations.exceptions.InconsistentMigrationHistory: Migration admin.00
 다음의 절차대로 해결한다.
 
 ![에러 처리 절차](/assets/deploy/db_error_case.png)
+
+
+
