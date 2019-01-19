@@ -27,3 +27,6 @@ if __name__ == '__main__':
     print(int(result))
 ```
 
+
+
+sg-09ce169f65c90e5d9 추가
