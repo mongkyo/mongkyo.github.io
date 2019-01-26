@@ -1,7 +1,7 @@
 ---
 title: "Jupyter notebook font 변경"
 categories: 
-  - dev
+  - Dev
 tags: 
     - macOS
     - jupter notebook
