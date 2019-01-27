@@ -57,3 +57,4 @@ div.output pre{
 > Hack폰트는 [https://github.com/source-foundry/Hack](https://github.com/source-foundry/Hack)에서 다운 받을 수 있다. 
 
 위의 설정을 마치고 jupyter notebook을 터미널에서 다시 실행하면 변경 사항이 적용된 것을 확인할 수 있다.
+
