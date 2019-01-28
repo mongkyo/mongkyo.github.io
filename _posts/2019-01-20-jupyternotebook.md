@@ -58,3 +58,6 @@ div.output pre{
 
 위의 설정을 마치고 jupyter notebook을 터미널에서 다시 실행하면 변경 사항이 적용된 것을 확인할 수 있다.
 
+
+
+
