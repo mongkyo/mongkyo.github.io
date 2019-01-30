@@ -3,7 +3,6 @@ docker run으로 실행되어있는 container에 docker exec ...를 실행하면
 docker exec eb tail -f /srv/project/.log/error.log
 
 
-
    
 ```
 ./deploy.sh -> EC2환경에 배포 
