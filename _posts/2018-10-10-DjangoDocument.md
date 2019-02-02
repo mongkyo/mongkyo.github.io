@@ -189,4 +189,5 @@ Membership.objects.create(
 			invite_reason = 'Needed a New drummer.'
 ```
 
+
 이렇게 되는 이유는 Person과 Group의 관계를 설정할 때 중간 모델의 필드값을 명시해줘야하기 때문이다. 단순히 add(), create(), set()을 사용하는 경우에 `'person`과 `group`속성 값은 알 수 있지만, __`date_joined`__값과 __`invite_reason`__값은 알 수 없기 때문이다. 따라서 중간 모델의 속성들을 직접 정의한 경우에는, 반드시 중간 모델을 사용하여 생성하는 방법 밖에 없다.
