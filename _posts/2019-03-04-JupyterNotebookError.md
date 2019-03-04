@@ -27,7 +27,7 @@ comments: true
 
 처음에 jupyter notebook을 실행했을 때 아래의 그림과 같은 상황이였다. connecting to kernel 이라는 주황색 글씨가 떠있는 상태에서 작동이 하지 않았다. 그 이후 jupyter notebook을 실행한 터미널에서 연결 상태를 확인하니 다음과 같은 에러가 있었다. 
 
-![jupyter notebook error](/assets/deploy/error.png)
+![jupyter notebook error](/assets/deploy/error.jpeg)
 
 ```
 RuntimeWarning: coroutine 'WebSocketHandler.get' was never awaited super(AuthenticatedZMQStreamHandler, self).get(*args, **kwargs)
