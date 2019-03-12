@@ -38,3 +38,54 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+
+/* Customization */
+.masthead {
+    background-color: $darker-gray;
+    > .masthead__inner-wrap {
+        max-width: 96%;
+    }
+     .greedy-nav {
+        background-color: $darker-gray;
+    }
+     .hidden-links a {
+         color: $darker-gray;
+     }
+}
+
+.author__urls-wrapper {
+    z-index: 50;
+}
+
+.btn--inverse:hover {
+    color: $lighter-gray;
+    background-color: $dark-gray; 
+}
+
+.nav__list label:hover {
+    color: $lighter-gray;
+    background-color: $dark-gray;
+}
+
+.nav__list input:checked+label {
+    color: $lighter-gray;
+    background-color: $dark-gray;
+}
+
+#main {
+    max-width: 96%;
+}
+
+.page {
+    font-size: 16px;
+}
+
+.page__footer {
+    color: $lighter-gray;
+    text-align: center;
+
+    > footer {
+        text-align: center;
+    }
+}
