@@ -1,5 +1,5 @@
 ---
-title: "python-Iterator"
+title: "python-Generator"
 categories: 
   - python
 tags:
@@ -70,7 +70,7 @@ gen start
 gen[1] : hello
 >>> second
 2  # yield 2를 통해 넣은 값
->>> 
+
 ```
 
 위의 코드는 gen()이라는 함수를 만든 것이다. 안에 기능은 단순히 print문을 호출하는데, 여기서 yield를 data값으로 받아서 출력한다. 이때 `yield 1`과 `yield 2`를 통해 first, second에 값이 들어간 것도 확인 가능하다. send()를 사용하면 yield를 만나는 시점에서 값을 전달하여 함수를 호출 할 수 있다. 
@@ -78,7 +78,30 @@ send()는 `__next__()`와 거의 동일한데, 차이가 있다면 이 시점에
 
 > 코루틴은 함수 사이의 권한을 넘기는 것을 말한다. 위의 제너레이터도 코루틴이다.(이터레이터는 코루틴이 아님)
 
-## Generator yield from
+## yield from
+
+`yield from`에는 반복 가능한 객체, 이터레이터 객체, 제너레이터 객체를 지정해준다. yield from은 아래의 형식으로 함수 내부에 사용해주면 된다.
+
+```python
+yield from 반복 가능 객체
+yield from 이터레이터 객체
+yield from 제너레이터 객체
+S
+# 예제 코드
+def num_gen():
+    x = [1, 2, 3]
+	yield from x  # 리스트의 요소들을 순회하며 전달
+
+for i in num_gen():
+    print(i)
+
+>>> 1
+>>> 2
+>>> 3
+```
+
+위의 예제 코드를 작성하면 리스트에 들어있는 값을 한개씩 차례대로 전달하는 것을 보여준다. 즉 next()함수를 세번 호출할 수 있다. (호출이 끝나면 당연히 StopIterator Error발생)
+
 
 
 
