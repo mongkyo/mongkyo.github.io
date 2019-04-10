@@ -1,5 +1,5 @@
 ---
-title: "Jupyter notebook font 변경"
+title: "2019.01.20 - Jupyter notebook font 변경"
 categories: 
   - Dev
 tags: 

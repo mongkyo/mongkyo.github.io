@@ -1,5 +1,5 @@
 ---
-title: "Django 공식문서 - Relation & Inheritance"
+title: "2018.10.10 - Django 공식문서 - Relation & Inheritance"
 categories: 
   - Dev
 tags:

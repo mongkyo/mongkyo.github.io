@@ -1,5 +1,5 @@
 ---
-title: "masOS에 python 설치하기"
+title: "2018.09.10 - masOS에 python 설치하기"
 categories: 
    - Dev
 tags:

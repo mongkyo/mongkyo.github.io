@@ -1,5 +1,5 @@
 ---
-title: "python-Generator"
+title: "2019.03.29 - python-Generator"
 categories: 
   - python
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "jupyter notebook connecting to kernel error"
+title: "2019.03.04 - jupyter notebook connecting to kernel error"
 categories: 
   - Dev
 tags:
