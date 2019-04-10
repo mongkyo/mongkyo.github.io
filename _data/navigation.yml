@@ -6,8 +6,8 @@ main:
     url: /categories/
   - title: "tags"
     url: /tags/
-  # - title: "Sitemap"
-  #   url: /sitemap
+  - title: "docs"
+    url: /docs
 docs:
   - title: Postings
     children:
@@ -21,3 +21,6 @@ docs:
         url: /_posts/git/
       - title: "Python & algorism"
         url: /_posts/python & algorism
+
+sidebar:
+  nav: "docs"
