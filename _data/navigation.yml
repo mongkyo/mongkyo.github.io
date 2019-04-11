@@ -6,11 +6,10 @@ main:
     url: /categories/
   - title: "tags"
     url: /tags/
-  - title: "docs"
-    url: /docs
 
 sidebar:
   nav: "docs"
+
 docs:
   - title: Postings
     children:
