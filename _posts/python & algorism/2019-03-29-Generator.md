@@ -7,6 +7,8 @@ tags:
     - Generator
 author_profile: true
 
+sidebar:
+  nav: "docs"
 toc: true
 toc_label: "My Talbe of Contents"
 toc_icon: "cog"
