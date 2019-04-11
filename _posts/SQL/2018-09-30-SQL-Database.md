@@ -1,7 +1,7 @@
 ---
 title: "2018.09.30 - SQL-Database"
 categories: 
-  - Dev
+  - SQL
 tags:
     - mac
     - SQL
