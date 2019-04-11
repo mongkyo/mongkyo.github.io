@@ -14,19 +14,18 @@ docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /:categories/:title/
-        paginate_path: /page:num/
+        url: /categories/#Deploy
       - title: "Dev"
-        url: /dev/
+        url: /categories/#Dev
       - title: "Django"
-        url: #django
+        url: /categories/#Django
       - title: "Git"
-        url: /_posts/git/
+        url: /categories/#git
       - title: "python"
-        url: /python/Generator/
+        url: /categories/#python
       - title: "algorism"
-        url: /algorism/
+        url: /categories/#Algorism
       - title: "SQL"
-        url: /SQL/
+        url: /categories/#SQL
       - title: "study"
-        url: /study/
+        url: /categories/#Study
