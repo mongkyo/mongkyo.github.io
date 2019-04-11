@@ -14,7 +14,7 @@ docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /deploy/
+        url: /:categories/deploy/
       - title: "Dev"
         url: /dev/
       - title: "Django"
