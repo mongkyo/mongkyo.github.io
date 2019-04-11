@@ -14,7 +14,7 @@ docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /_posts/deploy
+        url: /_posts/deploy/
       - title: "Dev"
         url: /_posts/dev/
       - title: "Django"
@@ -22,7 +22,7 @@ docs:
       - title: "Git"
         url: /_posts/git/
       - title: "Python & algorism"
-        url: /_posts/python & algorism
+        url: /_posts/python & algorism/
       - title: "SQL"
         url: /_posts/SQL/
       - title: "study"
