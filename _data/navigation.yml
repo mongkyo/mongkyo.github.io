@@ -22,7 +22,7 @@ docs:
       - title: "Git"
         url: /_posts/git/
       - title: "python"
-        url: /python/
+        url: /python/Generator/
       - title: "algorism"
         url: /algorism/
       - title: "SQL"
