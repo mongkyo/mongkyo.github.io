@@ -8,19 +8,25 @@ main:
     url: /tags/
   - title: "docs"
     url: /docs
+
 docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /docs/quick-start-guide/
+        url: /docs/deploy/
       - title: "Dev"
-        url: /docs/structure/
+        url: /docs/dev/
       - title: "Django"
-        url: /docs/installation/
+        url: /docs/django/
       - title: "Git"
         url: /_posts/git/
       - title: "Python & algorism"
         url: /_posts/python & algorism
+      - title: "SQL"
+        url: /_posts/SQL/
+      - title: "study"
+        url: /_posts/study/
+
 
 sidebar:
   nav: "docs"
