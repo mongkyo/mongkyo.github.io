@@ -14,7 +14,7 @@ docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /docs/deploy/
+        url: /_posts/deploy/
       - title: "Dev"
         url: /_posts/dev/
       - title: "Django"
