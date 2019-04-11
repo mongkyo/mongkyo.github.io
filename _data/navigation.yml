@@ -16,7 +16,7 @@ docs:
       - title: "Deploy"
         url: /docs/
       - title: "Dev"
-        url: /_posts/dev/
+        url: /dev/
       - title: "Django"
         url: /_posts/django/
       - title: "Git"
