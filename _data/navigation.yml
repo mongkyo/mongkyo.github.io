@@ -14,18 +14,18 @@ docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /categories/#Deploy
+        url: /categories/#deploy
       - title: "Dev"
-        url: /categories/#Dev
+        url: /categories/#dev
       - title: "Django"
-        url: /categories/#Django
+        url: /categories/#django
       - title: "Git"
         url: /categories/#git
       - title: "python"
         url: /categories/#python
       - title: "algorism"
-        url: /categories/#Algorism
+        url: /categories/#algorism
       - title: "SQL"
-        url: /categories/#SQL
+        url: /categories/#sql
       - title: "study"
-        url: /categories/#Study
+        url: /categories/#study
