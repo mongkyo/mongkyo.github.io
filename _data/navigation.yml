@@ -18,7 +18,7 @@ docs:
       - title: "Dev"
         url: /dev/
       - title: "Django"
-        url: \#django
+        url: #django
       - title: "Git"
         url: /_posts/git/
       - title: "python"
