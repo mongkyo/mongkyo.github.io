@@ -9,15 +9,17 @@ main:
   - title: "docs"
     url: /docs
 
+sidebar:
+  nav: "docs"
 docs:
   - title: Postings
     children:
       - title: "Deploy"
-        url: /docs/deploy/
+        url: /_posts/deploy/
       - title: "Dev"
-        url: /docs/dev/
+        url: /_posts/dev/
       - title: "Django"
-        url: /docs/django/
+        url: /_posts/django/
       - title: "Git"
         url: /_posts/git/
       - title: "Python & algorism"
@@ -26,7 +28,3 @@ docs:
         url: /_posts/SQL/
       - title: "study"
         url: /_posts/study/
-
-
-sidebar:
-  nav: "docs"
